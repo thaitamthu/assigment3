@@ -1,0 +1,172 @@
+.digital{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+   
+    grid-template-areas: 
+    "a b c"
+    "d e c";
+}
+.goals{
+    padding: 15px;
+}
+.scopes{
+   grid-area: d ;
+   padding: 15px;
+   column-gap: 20px;
+}
+.team{
+    grid-area: b;
+    padding: 15px;
+}
+.Primary{
+    grid-area: e;
+    padding: 15px;
+}
+.timeline{
+    grid-area: c;
+    padding: 15px;
+    
+}
+.number{
+    color: white;
+    font-size: 10px;
+}
+.goal1,.goal2,.goal3{
+    display: flex;
+    column-gap: 20px;
+    border-bottom: 1px solid rgb(206, 197, 197);
+    margin-top: 10px;
+   
+}
+.team1{
+    display: flex;
+    column-gap: 20px;
+}
+#timeline{
+    display: flex;
+    flex-direction: column;
+}
+.timeline1{
+    display: flex;
+    column-gap: 20px;
+}
+.tl{
+    border-bottom: 1px dashed blue;
+    margin-top: 10px;
+ }
+ .Primary1{
+    display: flex;
+    column-gap: 20px;
+}
+i{
+    font-size: 25px;
+}
+
+span{
+    padding: 10px 15px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    background-color:rgb(207, 123, 207) ;
+    color: white;
+    font-size: 20px;
+}
+h2,h6{
+    font-weight: bold;
+}
+h2{
+    border-bottom: 1px solid rgb(206, 197, 197);
+}
+#timeline .icon{
+    margin-top: 15px;
+}
+.d-flex{
+    column-gap:45px;
+}
+/* mobile*/
+@media (min-width: 0px) and (max-width: 768px){
+    .digital{
+        display: flex;
+       flex-direction: column;
+    }
+    .goal1,.goal2,.goal3{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(206, 197, 197);
+        margin-top: 10px;
+    }
+    .icon{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+      
+    }
+    .noidung{
+        margin: 15px;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .team1{
+        display: flex;
+        flex-direction: column;
+    }
+    .timeline1{
+        display: flex;
+        flex-direction: column;
+     }
+     .Primary1{
+        display: flex;
+        flex-direction: column;
+     }
+    
+#timeline .icon{
+    display: flex;
+    justify-content:flex-start;
+    margin-left: 15px;
+   
+ }
+}
+/*tablet*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .digital{
+        display: flex;
+       flex-direction: column;
+    }
+    .goal1,.goal2,.goal3{
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid rgb(206, 197, 197);
+        margin-top: 10px;
+    }
+    .icon{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .noidung{
+        margin: 15px;
+    }
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .team1{
+        display: flex;
+        flex-direction: column;
+    }
+    .timeline1,.Primary1{
+        display: flex;
+        flex-direction: column;
+     }
+    
+     #timeline .icon{
+        display: flex;
+        justify-content:flex-start;
+        margin-left: 15px;
+       
+     }
+}

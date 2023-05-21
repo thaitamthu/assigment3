@@ -1,0 +1,121 @@
+
+/* mobile*/
+@media (min-width: 0px) and (max-width: 768px){
+    #anhcanhan{
+        display: none;
+    }
+   
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0;
+      padding: 0;
+      
+    }
+    #navbar a{
+       border: none;
+        margin: 0;
+       font-size: 12px;
+    padding: 10px 15px 10px 0px;
+    
+    text-align:start;
+    }
+    #navbar i{
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    #navbar a:last-child{
+        border: none;
+    }
+    /*thông tin cá nhân*/
+    #thongtincanhan{
+      display: flex;
+      flex-direction: column;
+      font-size: 12px;
+    }
+    #target h2, #personal-info h2{
+      font-size: 25px;
+      
+    }
+    /*kinh nghiệm*/
+    #ch p{
+      font-size: 12px;
+    }
+    #ch h2{
+      font-size: 20px;
+    }
+    #ch h4{
+      font-size: 15px;
+    }
+    /*chứng chỉ- giải thưởng*/
+    .chungchi2{
+      border-left: none;
+      border-top: 2px solid  #d6c08d;
+      padding-top: 35px;
+    }
+    .chungchicon{
+      display:flex;
+      flex-direction: column;
+    }
+    .chungchicon p{
+      font-size: 12px;
+    }
+    
+    .chungchicon h3{
+      font-size: 15px;
+    }
+    .chungchi1, .chungchi2, .chungchi3{
+      margin-left: 80px;
+    }
+    /*dự án*/
+    .btn{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10px;
+     
+    }
+    
+    .develop{
+      display: flex;
+      flex-direction: row;
+     column-gap: 5px;
+    }
+    .develop p{
+      margin-top: 20px;
+    }
+    #duan h3{
+      font-size: 15px;
+    }
+    #duan table, #duan p{
+      font-size: 12px;
+    }
+    .btn span{
+        padding: 5px 8px;
+       }
+     /*footer*/
+     .footer{
+      padding-top: 40px;
+      padding-bottom: 10px;
+     }
+    .footer ul{
+        display: flex;
+        flex-direction: row;
+        margin-right: 25px;
+       }
+    .footer li{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    }
+    .footer i{
+        font-size: 20px;
+    }
+    .footer a{
+      margin-top: 10px;
+     
+    }
+    }

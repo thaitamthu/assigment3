@@ -1,0 +1,154 @@
+ 
+ body{
+  font-family: sans-serif, Helvetica, sans-serif;
+
+}
+a{
+  text-decoration: none;
+}
+/*xây dụng banner*/
+
+#banner{
+    filter: brightness(50%);
+}
+.z-index1{
+    z-index: 1;
+}
+/*xây dựng navbar*/
+
+#navbar .container{
+  display: flex;
+  justify-content: center;
+}
+#navbar a:hover, .navbar a:active {
+    background-color: rgb(57, 170, 127);
+   color: aliceblue;
+}
+#navbar i{
+        color: rgb(0, 145, 255) ;
+        padding-right: 7px;
+}
+#navbar a{
+       margin: 0 ;
+       font-size: 17px;
+       padding: 14px 65px;
+       border-left: 1px solid rgb(200, 195, 195);
+       color: black;
+}
+#navbar a:last-child{
+  border-right: 1px solid rgb(200, 195, 195);
+}
+/*xây dựng thông tin cá nhân*/
+
+#target{
+    flex-basis: 50%;
+}
+#target h2{
+    margin-top: 60px;
+}
+#personal-info{
+    flex-basis: 50%;
+    background-color: rgb(221, 208, 193);
+
+}
+#personal-info h2{
+    margin-top: 60px;
+  }
+
+/*xây dựng phần thông tin nghề nghiệp*/ 
+#ch li::marker{
+    font-size: 2em;
+    color: rgb(0, 145, 255) ;
+    border:1px solid white;
+  
+}
+.blue{
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+    background-color: rgb(0, 145, 255) ;
+}
+.gray{
+    background-color: gray;
+    display: inline-block;
+    width: 45px;
+    height: 2px;
+}
+.fw-bold{
+    margin-bottom: -5px;
+}
+.thongtin i{
+    color: darkgray;
+}
+#ch .card{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  
+}
+#ch h4{
+  font-size: 20px;
+}
+  /*xây dựng giải thưởng*/
+
+.chungchi3{
+    border-top:2px solid  #d6c08d;
+}
+.chungchi2{
+    border-left:2px solid  #d6c08d;
+}
+.chungchi h3{
+  font-size: 18px;
+}
+.chungchi img{
+  margin-right: 20px;
+}
+   /*xây dựng dự án*/
+ #duan img{
+    width: 100%;
+}
+#duan .card-body{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+   #duan h3{
+    font-size:20px;
+   }
+#duan i{
+    color: rgb(0, 145, 255) ;
+}
+#duan tr{
+    border-top:1px solid rgba(99, 99, 99, 0.2);
+   
+}
+.btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+  .develop{
+    display: flex;
+    flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  }
+  .develop i{
+    color: black;
+  }
+  
+/*footer*/
+.footer i{
+   font-size:30px ;
+   color: rgb(0, 145, 255) ;
+}
+.footer li{
+    font-size:20px ;
+    padding: 30px 60px;
+  text-align: center;
+}
+.footer .container{
+    text-align: center;
+    justify-content: center;
+}
+
+#footer{
+ 
+}
